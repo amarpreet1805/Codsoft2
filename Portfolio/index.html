@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <h2>Amarpreet</h2>
+    </div>
+    <nav class="sidebar-nav">
+      <ul>
+        <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+        <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+    <div class="sidebar-footer">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="home-content">
+        <img src="profile.jfif" alt="Profile Picture" class="profile-pic">
+        <h1>Hi, I'm <span>Amarpreet Singh</span></h1>
+        <p>Full-Stack Developer</p>
+        <a href="#projects" class="btn">View My Work <i class="fas fa-arrow-down"></i></a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="profile.jfif" alt="About Me" class="about-pic">
+        <div class="about-text">
+          <p>
+            I am a B.Tech student with a deep passion for web development, constantly exploring innovative ways to build engaging and user-friendly digital experiences. My technical expertise spans front-end and back-end development, with proficiency in HTML, CSS, JavaScript.
+          </p>
+          <a href="#" class="btn">Download Resume <i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="Screenshot (6).png" alt="Project 1">
+          <h3>Coding Quiz Challenge</h3>
+          <p>This application is designed to present users with a curated set of questions, each accompanied by a countdown timer, providing an interactive and time-bound quiz experience. Additionally, the app keeps track of users’ progress, creating an immersive and dynamic quiz environment.</p>
+          <a href="#" class="btn">View Details <i class="fas fa-eye"></i></a>
+        </div>
+        <div class="project-card">
+          <img src="we.png" alt="Project 2">
+          <h3>Weather App</h3>
+          <p>Weather App provides users with real-time weather updates by integrating data from a reliable weather API. The app allows you to search for any city or location worldwide and instantly receive accurate weather information, including temperature, humidity, wind speed, and a detailed weather forecast. </p>
+          <a href="#" class="btn">View Details <i class="fas fa-eye"></i></a>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fas fa-code"></i>
+          <h3>HTML5</h3>
+          <div class="skill-bar" style="width: 90%;" >
+            <span ></span>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fas fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <div class="skill-bar" style="width: 85%;">
+            <span >333</span>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fas fa-js-square"></i>
+          <h3>JavaScript</h3>
+          <div class="skill-bar" style="width: 75%;">
+            <span ></span>
+          </div>
+        </div>
+        
+        <!-- Add more skills as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form action="#" method="post" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+  </main>
+
+
+</body>
+</html>
